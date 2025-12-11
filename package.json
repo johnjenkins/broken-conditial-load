@@ -1,0 +1,25 @@
+{
+  "name": "stencil-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Stencil Template",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "4.39.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "community",
+    "stencil",
+    "web components"
+  ],
+  "devDependencies": {
+    "workbox-build": "7.3.0"
+  }
+}
